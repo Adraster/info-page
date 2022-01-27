@@ -1,0 +1,140 @@
+/*Global Design*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+*{
+    font-family: 'Montserrat',Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/*Banner Design*/
+.banner-one{
+    
+    height: auto;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.college{
+    background: brown;
+    padding: 20px;
+}
+.college h1{
+    text-align: center;
+    font-size: 5vw;
+}
+.college p{
+    text-align: center;
+    font-size: 2.5vw;
+}
+.college-logo{
+    background: linear-gradient(to right, brown 50%,white 50%);
+}
+.college-logo img{
+    height: auto;
+    width: auto;
+}
+.col-10{
+    flex-basis: 83.33%;
+}
+.col-2{
+    flex-basis: 16.66%;
+}
+.title{
+    font-weight: 900;
+    padding-top: 20px;
+}
+h3{
+    color: black;
+    padding-top: 20px;
+    margin: 0;
+}
+.sm-container{
+    margin:10px;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+.m-container{
+    margin: 0;
+}
+.org-description{
+    text-indent: 80px;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+}
+.box{
+    padding:0px 25px;
+}
+#goal{
+    color: black;
+    text-align: justify;
+    text-indent: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.li-color{
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/**/
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    /* For mobile phones: */
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .college-logo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+   .col-10,.col-2{
+       flex-basis: 100%;
+   }
+   /*.college h1{
+       font-size: 2.5rem;
+   }
+   .college p{
+       font-size: 1.25rem;
+   }*/
+   .college-logo{
+    background: white;
+    }
+    .sm-container{
+        margin:10px;
+        padding-left:25px;
+        padding-right: 25px;
+        
+    }
+    .org-description{
+        font-size: 15px;
+        text-indent: 40px;
+    }
+    h3{
+        text-align: left;
+        padding-top: 0;
+        text-indent: 0px;
+        font-size: 16px;
+    }
+}
+
+/*769-860
+860-1600*/
+
